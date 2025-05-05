@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.topic {
+  display: flex;
+  justify-content: center;
+}
+
+.topic h1 {
+  color: white;
+  font-size: 100px;
+}
+.hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.hero1 h2 {
+  color: white;
+  font-size: 100px;
+}
