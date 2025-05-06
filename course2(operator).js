@@ -83,3 +83,89 @@ console.log("hello world");
 // console.log("g!==h", g !== h); //true if the value of the h=5 then the result will be false
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Conditional Statements
+
+// 1) If Statement
+
+// 1st example
+
+// let age = 15;
+// if (age >= 18) {
+//   console.log("can vote");
+// }
+// if (age<18){
+//     console.log("can't vote");
+// }
+
+// 2nd example
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// }
+// if (mode === "light") {
+//   color = "white";
+// }
+// console.log(color);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 2) If-Else Statement
+
+// 1st Example
+
+// let age = 18;
+// if (age >= 18) {
+//   console.log("can vote");
+// } else {
+//   console.log("can't vote");
+// }
+
+//2nd Example
+
+//  let number = 4;
+// {
+//   if (number % 2 === 0) {
+//     console.log(number, "is even");
+//   } else {
+//     console.log(number, "is odd");
+//   }
+// }
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Else-If Statement
+
+// 1st Example
+
+// let age = 65;
+// {
+//   if (age < 18) {
+//     console.log(age, "are junior");
+//   } else if (age >= 65) {
+//     console.log(age, "senior");
+//   } else {
+//     console.log(age, "middle");
+//   }
+// }
+
+//2nd Example
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// } else if (mode === "gray") {
+//   color = "gray";
+// } else {
+//   color = "white";
+// }
+// console.log(color, "color");
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------Practice Questions------------------------------------------------------------------------
