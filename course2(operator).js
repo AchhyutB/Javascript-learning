@@ -169,3 +169,30 @@ console.log("hello world");
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------Practice Questions------------------------------------------------------------------------
+
+// Qn 1.
+//  Get user to input a number using prompt("enter a number:").Check if the number is a multiple of 5 or not.
+
+// let num = prompt("enter a number");
+// if (num%5 === 0) {
+//   console.log(num, "is a multiple of 5");
+// } else {
+//   console.log(num, "is not a multiple of 5");
+// }
+
+//Qn 2.
+// Write a code which can give grades to students according to their scores.
+
+// let num = prompt("Enter a number");
+// if (num >= 80 && num <= 100) {
+//   console.log("The grade is A");
+// } else if (num >= 70 && num <= 89) {
+//   console.log("The grade is B");
+// } else if (num >= 60 && num <= 69) {
+//   console.log("The grade is C");
+// } else if (num >= 50 && num <= 59) {
+//   console.log("The grade is D");
+// } else if (num >= 0 && num <= 49) {
+//   console.log("The grade is F");
+// }
+
