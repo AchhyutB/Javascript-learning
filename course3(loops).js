@@ -94,12 +94,3 @@ console.log("hello world");
 // for (let key in student) {
 //   console.log("key=", key, "value=", student[key]);
 // }
-
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-//PRACTICE QN
-
-//1. Print all the even number from 0 to 100.
-
-for (let num = 0; num <= 100; num)
-  if (num % 2 == 0) console.log("the even number from 1 to 100 are:", num);
