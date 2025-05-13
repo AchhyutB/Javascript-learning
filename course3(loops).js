@@ -1,4 +1,8 @@
-console.log("hello world");
+console.log("Hello\nWorld");
+
+// just like <br> tag in html to break the line
+//In JS there is a escape character that is: \n
+//To get TAB space we use \t to get ("   ")space.
 
 //For loop
 
@@ -136,3 +140,43 @@ console.log("hello world");
 // let str="abcd";
 // str.length //(runs by typing it in console when pressing f12)ans:4
 // console.log(str[1]); //ans: b
+
+
+
+// Template Literals
+
+//syntax
+
+// `Stringtext ${expression} stringtext`
+
+//is the way of combining all the stings in single string.
+
+
+// let specialString = `this is Template literals`; 
+// //(``) known as backticks
+// console.log(specialString);
+
+
+
+//for Example
+
+// let obj = {
+//   item: "pen",
+//   price: 10,
+// };
+
+// // console.log("the cost of", obj.item, "is", obj.price, "rupees");
+
+// //instead of this we can write in this manner called as template literals
+
+
+
+// let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+
+//Sting Interpolation
+//to create stings by doing substitution of placeholder
+
+// `Stringtext ${expression} stringtext`
+
