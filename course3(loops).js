@@ -94,3 +94,23 @@ console.log("hello world");
 // for (let key in student) {
 //   console.log("key=", key, "value=", student[key]);
 // }
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Even num from 1 to 100
+
+// for (let num = 0; num <= 100; num++) {
+//   if (num % 2 == 0) {
+//     console.log("num=", num);
+//   }
+// }
+
+// Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enter correct vakue.
+
+// let gameNum = 25;
+// let userNum = prompt("guess the num:");
+// while (userNum != gameNum)      //while using prompt the number itself in the form of string so in line no "112" untill n unless in line no "110" the num is in ("") form don't use the "=="if the value is in string use "=="
+//  {
+//   userNum = prompt("you enter wrong number.Try again");
+// }
+// console.log("you enter the right number");
