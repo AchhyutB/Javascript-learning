@@ -114,3 +114,25 @@ console.log("hello world");
 //   userNum = prompt("you enter wrong number.Try again");
 // }
 // console.log("you enter the right number");
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Sting
+
+// Sting is a sequence of character used to represent text.
+
+// Create string
+// let str = "abcd";
+// let str2 = 'abc';
+
+//string length
+//str.length  // it give total number of character in a string
+
+//string indices
+//str[0],str[1],str[2]
+
+//example from the above topics:
+
+// let str="abcd";
+// str.length //(runs by typing it in console when pressing f12)ans:4
+// console.log(str[1]); //ans: b
