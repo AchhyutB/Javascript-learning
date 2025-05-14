@@ -180,3 +180,37 @@ console.log("Hello\nWorld");
 
 // `Stringtext ${expression} stringtext`
 
+
+
+
+// For UpperCase
+
+//  let str="abcd";
+//  let newstr = str.toUpperCase();
+//  console.log(str);
+//  console.log(newstr);
+// ans:"ABCD"
+
+
+
+
+// For LowerCase
+
+//  let str="ABCD";
+//  let newstr = str.toLowerCase();
+//  console.log(str);
+//  console.log(newstr);
+//  ans:"abcd"
+
+
+// IMP==== The string are immutable means it don't change
+// for small change the original string don't chance fresh new string is created
+
+
+
+// For Removing Whitespaces
+
+// str.trim()
+
+// let str="  abc  ";
+// console.log(str.trim());
