@@ -4,6 +4,10 @@ console.log("Hello\nWorld");
 //In JS there is a escape character that is: \n
 //To get TAB space we use \t to get ("   ")space.
 
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 //For loop
 
 //eg. for(let i=1; i<=5; i++){ }
@@ -11,7 +15,10 @@ console.log("Hello\nWorld");
 // for (count = 1; count <= 5; count++) {
 //   console.log("abc");
 // }
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 //Qn.1)   sum of number from 1 to 5
 
@@ -21,7 +28,9 @@ console.log("Hello\nWorld");
 // }
 // console.log("the total sum from 1 to 5 =", sum);
 
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 // Qn.2)   sum of number from 1 to n
 
@@ -32,14 +41,20 @@ console.log("Hello\nWorld");
 // }
 // console.log("the total number is", sum);
 
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 //Infinite loops: A loops that never ends
 // for (let 1=1; i>=0;i++){
 // console.log("i=",i)}
 //never runs the code ("CAN MAKE THE SYSTEM CRASH")
 
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 // While loops
 
@@ -49,7 +64,11 @@ console.log("Hello\nWorld");
 //     i++;
 // }
 
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 //do-while loop
 
@@ -65,7 +84,11 @@ console.log("Hello\nWorld");
 //   i++;
 // } while (i <= 5);
 
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 // THERE ARE 2 DIFFERENT TYPES LOOP
 
@@ -87,7 +110,11 @@ console.log("Hello\nWorld");
 // }
 // console.log("string size=", size);  //Ans: 10
 
+
+
 //2. For in Loop
+
+
 
 // let student = {
 //   name: "rahul",
@@ -99,7 +126,11 @@ console.log("Hello\nWorld");
 //   console.log("key=", key, "value=", student[key]);
 // }
 
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 // Even num from 1 to 100
 
@@ -108,6 +139,11 @@ console.log("Hello\nWorld");
 //     console.log("num=", num);
 //   }
 // }
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 // Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enter correct vakue.
 
@@ -119,7 +155,11 @@ console.log("Hello\nWorld");
 // }
 // console.log("you enter the right number");
 
+
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 //Sting
 
@@ -140,6 +180,12 @@ console.log("Hello\nWorld");
 // let str="abcd";
 // str.length //(runs by typing it in console when pressing f12)ans:4
 // console.log(str[1]); //ans: b
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -175,10 +221,16 @@ console.log("Hello\nWorld");
 // console.log(output);
 
 
+
+
 //Sting Interpolation
 //to create stings by doing substitution of placeholder
 
 // `Stringtext ${expression} stringtext`
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -208,9 +260,75 @@ console.log("Hello\nWorld");
 
 
 
+
 // For Removing Whitespaces
 
 // str.trim()
 
 // let str="  abc  ";
 // console.log(str.trim());
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+// More String Methods in JS
+
+
+
+//str.slice(start, end?)  // returns part of string
+
+// let str="01234567";
+// console.log(str.slice(1,6));  //ans:12345
+
+
+
+// str1.concat(str2) // joins str2 with str1
+
+// let str1="abcd";
+// let str2="123";
+// let result = str1.concat(str2);    
+//  console.log(result);   // ans= abcd123
+
+
+
+//  Method Second
+
+
+// let str1="abcd";
+// let str2="123";
+// let result = "str1 and str2 joins like:" + str1 + str2;
+// console.log(result);
+
+
+
+
+
+
+// str.replace(searchVal, newVal) // search from string and replace new value.
+
+
+// let str="abcd";
+// console.log("the previous value is=",str);
+// console.log("the new replace value is=",str.replace("d", "."));  
+// ans: in the str=abcd the value "d" got replace by "." in new string.
+
+
+
+// str="abcddd";
+// console.log("the previous value is=",str);
+// console.log("the new replace value is=",str.replaceAll("d", "."));
+// ans: Same as above but the "str.replaceAll" replace all "d" to ".".
+
+
+
+// str.charAt(idx)    // to find the character in the string.
+
+
+// let str ="IloveJS";
+// console.log(str.charAt(6)); //ans: S
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
