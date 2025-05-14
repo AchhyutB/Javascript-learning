@@ -332,3 +332,19 @@ console.log("Hello\nWorld");
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+//Practice Qn
+
+
+//Qno.1
+
+// prompt the user to enter their fullname. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
+
+
+// let str1=prompt("enter your fullname without space");
+// let str2="@";
+// result= str2.concat(str1)+str1.length;
+// console.log(str1);
+// console.log(result);
+
+
+// TO LEARN MORE ABOUT LOOPS AND STRING VISIT: MDN WEBSITE
