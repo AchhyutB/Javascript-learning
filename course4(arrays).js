@@ -160,3 +160,18 @@ console.log("Hello\nWorld");
 // let arr1=["abc","def","ghi","ijk"];
 // let arr2=(arr1.shift());
 // console.log(arr1);
+
+
+
+// slice(): returns a piece of the array
+// let arr1=["abc","def","ghi","ijk","lmn","opq"];
+// console.log(arr1);
+// console.log(arr1.slice(1,5)); //ans: ["def","ghi","ijk","lmn"]
+
+
+// splice(): change original array(add, remove, replace)
+
+// let arr1=["abc","def","ghi","ijk","lmn","opq"];
+// console.log(arr1);
+// console.log(arr1.splice("2","2","aaa","bbb"));
+// console.log(arr1);
