@@ -10,11 +10,24 @@ console.log("Hello\nWorld");
 //do some work
 //}
 
-// Function Call
-
-// functionName();
-
 
 // function functionName(parameter1, parameter2,....){
 // do some work
 //}
+
+
+
+// Function Call
+//(for printing)
+// functionName();
+
+
+
+
+// Example
+
+// function myFunction (){          //Defining function
+//     console.log("abcd");
+//     console.log("learning JS");
+// }
+// myFunction();                    // Calling function
