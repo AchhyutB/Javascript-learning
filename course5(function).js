@@ -110,3 +110,90 @@ console.log("Hello\nWorld");
 //     console.log(count);
   
 // } 
+
+
+
+// ForEach Loop in Function  (ForEach is a Higher Order Function/Order).
+
+
+// arr.forEach(callBackFunction)
+
+//callbackFunction: Here, it is a function as an argument to another function. * A callback is a function passed as an argument to another function
+
+
+// arr.forEach((val)=> {
+    //console.log(val);
+    //})
+
+
+// function abc(){
+//     console.log("hello");
+// }
+// function myFunc(abc){
+//     return abc;
+// }
+
+
+// let arr=[1,2,3,4,5];
+// arr.forEach(function printVal(val){
+// console.log(val);
+// })   
+
+//Complex to understand for easy way we can use [Arrow Function].
+
+// let arr=[1,2,3,4,5];
+// arr.forEach((val)=>{
+// console.log(val);
+// })
+
+
+//use of toUpperCase
+
+
+// let arr1=["abc","def","ghi","ijk"];
+// arr1.forEach((val)=>{
+// console.log(val.toUpperCase());   // toUpperCase---for making the string in uppercase.
+// })
+
+
+
+
+// CallBack function have 3 parameters(Opitional)
+
+// 1. value
+// 2. index--idx (position)
+// 3. array--arr (array itself)
+
+// Use of idx
+
+// let arr1=["abc","def","ghi","ijk"];
+// arr1.forEach((val, idx)=>{
+// console.log(val, idx);   // idx---for giving the position of the array value.
+// })
+
+// let arr=["abc","def","ghi","ijk"];
+// arr.forEach((val,idx, arr)=>{ //idx is used for allocate the array .
+// console.log(val,arr);   // arr---for showing the array value.
+// })
+
+
+// (Value, index, array)---correct way of placing the parameter 
+// If we don't want using index but still want to get the array parameter use:
+
+// let arr=["abc","def","ghi","ijk"];
+// arr.forEach((val,_, arr)=>{ // Use "_"placeholder for index (you don’t need it, but must include it
+// console.log(val,arr);   // arr---for showing the array value.
+// })
+
+
+
+// Practic Qn.
+
+//Qno.1
+// For a given array of numbers, print the square of each value using the forEach loop
+
+// let nums=[134,235,357,433];
+
+// nums.forEach((nums)=>{
+//     console.log(nums*nums);
+// });
