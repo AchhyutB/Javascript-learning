@@ -197,3 +197,114 @@ console.log("Hello\nWorld");
 // nums.forEach((nums)=>{
 //     console.log(nums*nums);
 // });
+
+
+
+
+// More Array Methods(IMP)
+
+
+
+// Map method
+
+
+// Similar as forEach method.
+// It returns new array.
+// It creates a new array with the results of some operations. The value its callback returns are used to form new array.
+
+// arr.map(callbackFnx(value, index, array))
+
+// let newArr= arr.map((val)=>{
+// return val*2;
+// })
+
+//How to use.
+
+// let nums =[64,65,655];
+// nums.map((val,idx,arr) => {
+//     console.log(val,arr);
+// })
+
+
+// Creating new array using MAP function.(It doesnot change the original array)
+
+// let nums=[456,65,565];
+// let newArr=nums.map((val)=>{
+//     return val+2;
+// });
+// console.log(newArr);
+
+// forEach -- used for the normal calculation and printing
+// map--  used for create a new array by using the original array 
+
+
+
+
+// Filter Method
+
+// Create a new array of the elements that give true for the condition.
+
+//Qno.1 : All even elements from the array
+
+// let arr=[1,2,34,6,7,8];
+// let evenArr=arr.filter((val)=>{
+//     return val %2 ===0; // for odd elements just use val%2 !==0;
+// });
+// console.log(evenArr);
+
+
+// Reduce Method
+
+// Performs some operations and reduces the array to a single value. It returns that single value.
+
+//Qno.1 Sum of the array
+
+// let arr=[1, 2, 3, 4];
+// const output=arr.reduce((prev, curr)=> {   //prev-previous value, curr-currentvalue
+// return prev+curr;
+// });
+// console.log(output);
+
+//how it works: at 1st prev have=1,curr=2 then return prev+curr after the return the new value i.e 3(1+2), stores in the prev value which becomes prev=3,and curr=3 and so on.
+//Output=10(1+2=3,3+3=6,6+4=10)
+
+
+// Qno.2 Greater in the array
+
+// let arr=[1, 2, 3, 4];
+// const output=arr.reduce((prev, curr)=> {   //prev-previous value, curr-currentvalue
+// return prev > curr ? prev : curr ;      //means: return the greater  of prev and curr — if prev is larger, return it; otherwise, return curr.
+// });
+// console.log(output);
+
+
+// Qno.3  We are given of marks of students.Filter out the marks of the students that scored 90+.
+
+
+// let marks=[56,88,98,89,91,90];
+// let toppers=marks.filter((val)=>{
+//     return val>=90;
+// })
+// console.log(toppers);
+
+
+
+// Qno.4 Take a number n as input from user. Create an array of the numbers from 1 to n. Use the reduce method to calculate sum of all numbers in the array. Use the reduce method to calculate product of all the numbers in the array.
+
+
+// let n= prompt("enter a number");
+// let arr=[];
+// for(let i=1; i<=n; i++){
+//     arr[i-1] =i;
+// }
+// console.log(arr);
+
+// let sum=arr.reduce((prev,curr)=>{
+//     return prev+curr;
+// });
+// console.log("sum=",sum);
+
+// let factorial=arr.reduce((prev,curr)=>{
+//     return prev*curr;
+// });
+// console.log("factorial=",factorial);
