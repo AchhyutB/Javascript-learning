@@ -8,12 +8,36 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
 }
-h1 {
+#heading {
   color: white;
   font-weight: 900;
-  font-size: 180px;
+  font-size: 20px;
+}
+.heading2 {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+
+}
+p {
+  color: white;
+  font-weight: 900;
+  font-size: 43px;
+
+}
+
+h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 43px;
+  margin-bottom: 50px;
+}
+.box {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
 }
