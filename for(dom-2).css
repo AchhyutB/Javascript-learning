@@ -7,4 +7,24 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 html, body{
 height: 100%;
 width: 100%;
+margin: 3px;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-left: 7px;
+    border: 3px solid black;
+}
+
+.para{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(13, 16, 226);
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 10px;
+    border: 3px solid rgb(244, 57, 57);
 }
