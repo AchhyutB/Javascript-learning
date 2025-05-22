@@ -31,3 +31,16 @@ console.log("Hello\nWorld");
 // let div=document.querySelector("div");
 // div.style.backgroundColor ="purple";
 // div.style.fontSize="14px";
+
+
+// Insert Elements
+
+// .node.append(el)  // adds at the end of the node(inside).
+// .node.prepend(el) // adds at the start of the node(inside).
+// .node.before(el)  // adds before the node(outside).
+// .node.after(el)   // adds after the node(outside).
+
+
+// Delete Element
+
+// .node.remove()  // remove the node
